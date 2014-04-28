@@ -1,0 +1,7 @@
+MinecraftForge - for raspberry pi and MCPI.A few things to start off with:
+
+    1. If you run 'unrestricted_start.sh' all mods will have root permissions.It is recommended for you to run 'normal_start.sh' which will only give it your user's permissions.
+    2. This script does not check the files before running it, so we cannot guarantee that the scripts are not malicious.
+    3. I will not accept any liability. Including, but not limited to you downloading and letting malicious files run using my script.
+
+Ok, now we have the *cough* legal *cough* stuff finished, let's get to the contents!This script will run any python files in your /path/to/mcpi/_mods/  directory.Now, what am I planning to add?An extended library.Maybe I'll also write some tools, like a mod for manipulating player nametags, etc.
