@@ -5,3 +5,8 @@ MinecraftForge - for raspberry pi and MCPI.A few things to start off with:
     3. I will not accept any liability. Including, but not limited to you downloading and letting malicious files run using my script.
 
 Ok, now we have the *cough* legal *cough* stuff finished, let's get to the contents!This script will run any python files in your /path/to/mcpi/_mods/  directory.Now, what am I planning to add?An extended library.Maybe I'll also write some tools, like a mod for manipulating player nametags, etc.
+Official Thread:
+http://www.minecraftforum.net/topic/2612240-minecraftoven-minecraftforge-for-minecraftpi/
+
+Documentation:
+http://oddthingeveryday.blogspot.com/2014/04/minecraftoven-api-documentation-event.html
