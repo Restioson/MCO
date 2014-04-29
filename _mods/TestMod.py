@@ -12,9 +12,9 @@ api.multiplayer.togglenames(mc, False)
 api.general.msg('TestMod has disabled nametags')
 state_immutable = False
 while True:
-        hit = api.event.getHit(mc)
-        if str(hit) != 'None':
-                api.general.msg('You clicked at '+str(hit[0])+','+str(hit[1])+','+str(hit[2]), mc)
+		hit = api.event.getHit(mc)
+		if str(hit) != 'None':
+				api.general.msg('You clicked at '+str(hit[0])+','+str(hit[1])+','+str(hit[2]), mc)
 				api.general.msg('Your position is: '+str(api.player.getPos().x)+str(api.player.getPos().y)+str(api.player.getPos().z)
 				api.general.msg('Oops!Sorry!')
 				api.player.setPos(api.player.getPos().x, api.player.getPos().y + 50, api.player.getPos().x)
