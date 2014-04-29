@@ -8,5 +8,6 @@ def loadworld(mc):
 def msg(msg, mc):
 	mc.postToChat(msg)
 
-def set_immutable(state, mc):
-	mc.setting('world_immutable', True)
+#def set_immutable(state, mc):
+#	mc.setting('world_immutable', state)
+#Bug ^^^ :(
